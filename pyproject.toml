@@ -8,6 +8,7 @@ dependencies = []
 
 [project.scripts]
 mini-ai-agent = "mini_ai_agent.cli:main"
+mini-ai-agent-server = "mini_ai_agent.server:main"
 
 [dependency-groups]
 dev = [
