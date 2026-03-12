@@ -1,0 +1,19 @@
+[project]
+name = "mini-ai-agent"
+version = "0.1.0"
+description = "A minimal playground for building small AI agents."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+mini-ai-agent = "mini_ai_agent.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
